@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiranjeevi Srinivas Bandaru - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border: 2px solid #00d4ff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 212, 255, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            border: 2px solid #00d4ff;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #00d4ff;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.3em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.9em;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            background: #fafafa;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #00d4ff;
+            border-bottom: 2px solid #00d4ff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .profile {
+            text-align: justify;
+            font-size: 1em;
+            line-height: 1.8;
+        }
+        
+        .education-item, .skill-category {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            background: white;
+        }
+        
+        .institution {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .degree {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .period {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .skill-category h4 {
+            color: #00d4ff;
+            border-bottom: 2px solid #00d4ff;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .skill-list {
+            list-style: none;
+        }
+        
+        .skill-list li {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .skill-list li:before {
+            content: "•";
+            color: #00d4ff;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .languages {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .language {
+            background: #f0f0f0;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            border: 1px solid #00d4ff;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                margin: 20px;
+                border: none;
+                box-shadow: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                border: 1px solid #ccc;
+                background: white;
+            }
+            
+            .header {
+                border: 1px solid #00d4ff;
+                background: white;
+            }
+            
+            .education-item, .skill-category {
+                border: 1px solid #ddd;
+                background: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">CHIRANJEEVI SRINIVAS BANDARU</div>
+        <div class="title">ELECTRONICS & COMMUNICATION ENGINEERING STUDENT</div>
+        <div class="contact-info">
+            <span>📧 chiruammulu@gmail.com</span>
+            <span>📱 +91 9848844843</span>
+            <span>📍 Hyderabad, Telangana</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFILE</div>
+        <div class="profile">
+            A motivated Electronics and Communication Engineering student with strong knowledge in circuits, 
+            embedded systems, and communication technologies. Skilled in problem-solving, teamwork, and programming. 
+            Passionate about applying technical expertise to real-world challenges, exploring IoT, automation, and VLSI. 
+            Enthusiastic learner seeking opportunities to innovate and contribute to modern technology solutions.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="education-item">
+            <div class="institution">MAHAVEER INSTITUTE OF SCIENCE & TECHNOLOGY</div>
+            <div class="degree">Electronics & Communication Engineering</div>
+            <div class="period">2022 - 2025 • CGPA: 7.6/10</div>
+        </div>
+        <div class="education-item">
+            <div class="institution">VIGNANA JYOTHI PUBLIC SCHOOL</div>
+            <div class="degree">Secondary Education</div>
+            <div class="period">2022 • 76%</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">SKILLS</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Core Skills</h4>
+                <ul class="skill-list">
+                    <li>Project Management</li>
+                    <li>Innovative in new projects</li>
+                    <li>Feasible with every components</li>
+                    <li>Teamwork</li>
+                    <li>Effective Communication</li>
+                    <li>Critical Thinking</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Technical Skills</h4>
+                <ul class="skill-list">
+                    <li>Circuits</li>
+                    <li>Embedded Systems</li>
+                    <li>Communication Technologies</li>
+                    <li>Programming</li>
+                    <li>IoT</li>
+                    <li>Automation</li>
+                    <li>VLSI</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">LANGUAGES</div>
+        <div class="languages">
+            <span class="language">English (Fluent)</span>
+            <span class="language">Hindi (Fluent)</span>
+            <span class="language">Telugu (Fluent)</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROJECTS</div>
+        <div class="education-item">
+            <div class="institution">Medical Instrumentation & Measurement System</div>
+            <div class="degree">Research project on instrumentation and measurement in medical, biomedical, and healthcare systems</div>
+            <div class="period">2024</div>
+        </div>
+        <div class="education-item">
+            <div class="institution">IoT-Based Communication System</div>
+            <div class="degree">Development of IoT-based communication technologies for modern applications</div>
+            <div class="period">2024</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">REFERENCE</div>
+        <div class="profile">
+            S. Shirmohammadi, K. Barbe, D. Grimaldi, S. Rapuano, and S. Grassini, 
+            "Instrumentation and measurement in medical, biomedical, and healthcare systems," 
+            IEEE Instrum. Meas. Mag., vol. 19, no. 5, pp. 6–12, Oct. 2016
+        </div>
+    </div>
+</body>
+</html>
